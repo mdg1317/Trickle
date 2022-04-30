@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script defer src="javascripts/guess.js"></script>
+    <link rel= "stylesheet" href= "stylesheets/style.css"/>
     <title>Trickle</title>
   </head>
 
@@ -17,7 +18,9 @@
   <body>
     <div id="attemptsText">
       <center>
-        <p1 id="attemptsLabel">Attempt 0/8</p1>
+        <p1 id="attemptsText">Attempt </p1>
+        <p1 id="numAttempts">0</p1>
+        <p1 id="attemptsAllowed">/8</p1>
       </center>
     </div>
 
@@ -34,10 +37,8 @@
       </center>
     </div>
 
-    <div id="newGuess">
-      <center>
-        <p id="guessTest">
-      </center>
-    </div>
+    <form class="guess" id="newGuess">
+      <p id="guessTest">
+    </form>
   </body>
 </html>
